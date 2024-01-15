@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\123\\source\\repos\\artem-egorov-kt-31-20\\ArtemEgorovKt-31-20\\ArtemEgorovKt-31-20.csproj": {}
+    "C:\\Users\\j-classroom\\source\\repos\\artem-egorov-kt-31-20\\ArtemEgorovKt-31-20\\ArtemEgorovKt-31-20.csproj": {}
   },
   "projects": {
-    "C:\\Users\\123\\source\\repos\\artem-egorov-kt-31-20\\ArtemEgorovKt-31-20\\ArtemEgorovKt-31-20.csproj": {
+    "C:\\Users\\j-classroom\\source\\repos\\artem-egorov-kt-31-20\\ArtemEgorovKt-31-20\\ArtemEgorovKt-31-20.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\123\\source\\repos\\artem-egorov-kt-31-20\\ArtemEgorovKt-31-20\\ArtemEgorovKt-31-20.csproj",
+        "projectUniqueName": "C:\\Users\\j-classroom\\source\\repos\\artem-egorov-kt-31-20\\ArtemEgorovKt-31-20\\ArtemEgorovKt-31-20.csproj",
         "projectName": "ArtemEgorovKt-31-20",
-        "projectPath": "C:\\Users\\123\\source\\repos\\artem-egorov-kt-31-20\\ArtemEgorovKt-31-20\\ArtemEgorovKt-31-20.csproj",
-        "packagesPath": "C:\\Users\\123\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\123\\source\\repos\\artem-egorov-kt-31-20\\ArtemEgorovKt-31-20\\obj\\",
+        "projectPath": "C:\\Users\\j-classroom\\source\\repos\\artem-egorov-kt-31-20\\ArtemEgorovKt-31-20\\ArtemEgorovKt-31-20.csproj",
+        "packagesPath": "C:\\Users\\j-classroom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\j-classroom\\source\\repos\\artem-egorov-kt-31-20\\ArtemEgorovKt-31-20\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\123\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\j-classroom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,6 +45,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.8, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
@@ -64,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
